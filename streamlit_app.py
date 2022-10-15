@@ -6,16 +6,16 @@ st.set_page_config(layout="wide")
 st.sidebar.title("About")
 st.sidebar.info(
     """
-    Web App URL: <https://geospatial.streamlitapp.com>
-    GitHub repository: <https://github.com/giswqs/streamlit-geospatial>
+    Web App URL: <https://tyson-swetnam.github.io/streamlit-geospatial>
+    GitHub repository: <https://github.com/tyson-swetnam/streamlit-geospatial>
     """
 )
 
 st.sidebar.title("Contact")
 st.sidebar.info(
     """
-    Qiusheng Wu: <https://wetlands.io>
-    [GitHub](https://github.com/giswqs) | [Twitter](https://twitter.com/giswqs) | [YouTube](https://www.youtube.com/c/QiushengWu) | [LinkedIn](https://www.linkedin.com/in/qiushengwu)
+    T.L. Swetnam: <https://tysonswetnam.com>
+    [GitHub](https://github.com/tyson-swetnam) | [Twitter](https://twitter.com/tswetnam) | [YouTube](https://www.youtube.com/user/PrometheanGift) | [LinkedIn](https://www.linkedin.com/in/tyson-swetnam/)
     """
 )
 
@@ -31,7 +31,7 @@ st.markdown(
 st.header("Instructions")
 
 markdown = """
-1. For the [GitHub repository](https://github.com/giswqs/streamlit-multipage-template) or [use it as a template](https://github.com/giswqs/streamlit-multipage-template/generate) for your own project.
+1. Fork the [GitHub repository](https://github.com/giswqs/streamlit-multipage-template) or [use it as a template](https://github.com/giswqs/streamlit-multipage-template/generate) for your own project.
 2. Customize the sidebar by changing the sidebar text and logo in each Python files.
 3. Find your favorite emoji from https://emojipedia.org.
 4. Add a new app to the `pages/` directory with an emoji in the file name, e.g., `1_🚀_Chart.py`.
